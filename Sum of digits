@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-// Program to calculate the sum of digits
-// int a = number%10;
-//number = number/10;
-//b = a + b;
+//This program is using loops and input,output objects from stdio.h class. 
+
 
 int main() {
 
