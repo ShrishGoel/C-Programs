@@ -1,0 +1,16 @@
+// Converts minutes into hours using arithmetic operators
+
+int main() {
+    int hours,min,min2;
+    
+    printf("Enter the minutes:");
+    scanf("%d",&min);
+    
+     hours = min/60;
+     min2 = hours * 60;
+    min = min - min2;
+    
+    printf("It becomes %dhours %dmins",hours,min);
+}
+
+
