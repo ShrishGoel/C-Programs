@@ -1,0 +1,23 @@
+// Finds the sum of the first and the last digit of a number using loops
+int main() {
+    int Ld,Ft,number,digit,sum;
+   
+    int x = 10;
+    printf("Enter the number of the digits:");
+    scanf("%d",&digit);
+    
+    printf("Enter the number:");
+    scanf("%d",&number);
+    
+     Ft = number%10;
+    
+   for (int y = 0; y < digit-2; y++) {
+        x = x * 10;
+     };
+        
+      Ld = number/x;
+    sum = Ld + Ft;
+    printf("The sum of the first and the last digit of the number is %d",sum);
+}
+
+
