@@ -1,0 +1,23 @@
+// Calculates the radius of cirle or cylinder depending on the radius entered. Uses if and else.
+int main() {
+    
+    float r,h,ac,vc;
+    float pie = 3.14;
+    printf("Enter the radius:");
+    scanf("%f",&r);
+    
+    if (r < 10) {
+        ac = pie * r * r;
+        printf("The area of the circle is %f",ac);
+    }
+    
+    else {
+        
+        printf("Please enter the height of the cylinder:");
+        scanf("%f",&h);
+        vc = pie * r * r * h;
+         printf("The volume of cylinder is: %f",vc);
+    }
+    
+}
+
