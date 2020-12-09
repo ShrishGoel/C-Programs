@@ -1,0 +1,16 @@
+// Checks if a number is positive or negative using if and else statements.
+int main() {
+    
+    float num;
+    
+    printf("Enter the number:");
+    scanf("%f",&num);
+    
+    if (num>0) {
+        printf("The number entered is positive");
+    }
+    else {
+        printf("The number entered is negative");
+    }
+}
+
