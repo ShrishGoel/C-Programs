@@ -1,0 +1,42 @@
+// Program to calculate message and call bill using if and else statments
+
+int main() {
+    
+    float messages,call,totalmoney,money,money2,gross,totalmoney2;
+    
+    printf("Enter the messages sent:");
+    scanf("%f",&messages);
+    
+    printf("Enter the calls made:");
+    scanf("%f",&call);
+    
+    if(messages <= 50) {
+       money = messages * 0.10;
+    }
+    
+    else {
+      money = messages * 0.25;
+    }
+    
+    if(call <=200) {
+        money2 = call * 0.75;
+    }
+    
+    else {
+        money2 = call * 0.95;
+    }
+    
+    totalmoney = money + money2;
+    
+   if (totalmoney <=1000) {
+       gross = totalmoney * 12.5/100;
+       totalmoney2 = totalmoney + gross;
+   }
+   else {
+       gross = totalmoney * 22.5/100;
+       totalmoney2 = totalmoney + gross;
+   }
+    
+    printf("Your total bill with gross rate is %f",totalmoney2);
+}
+
