@@ -1,0 +1,30 @@
+// program to calculate profit or loss using if and else
+
+
+int main() {
+    float se,s,ps;
+    
+    printf("Enter the sales price of the item:");
+    scanf("%f",&s);
+    
+    printf("Enter the purchasing price of the item: ");
+    scanf("%f",&se);
+    
+    if (s > se ) {
+           ps = s-se;
+        printf("You made a profit of %f",ps);
+    }
+    
+     else if(se > s) {
+         ps = se-s;
+        printf("You made a loss of %f",ps);
+    }
+    
+    else {
+        printf("You did not make profit or loss.");
+    }
+    
+    
+    
+}
+
