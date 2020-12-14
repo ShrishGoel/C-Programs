@@ -9,3 +9,4 @@ This Repositorie contains all my C programs.
 7. Message and call bill program - https://github.com/ShrishGoel/C-Projects/blob/main/Message%20and%20call%20bill%20program
 8. Profit or loss - https://github.com/ShrishGoel/C-Projects/blob/main/Profit%20or%20loss
 9. Swapping numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Swapping%20Numbers
+10. Electricity Bill Calculator - https://github.com/ShrishGoel/C-Projects/blob/main/Electricity%20Bill%20Calculator
