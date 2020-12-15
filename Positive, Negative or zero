@@ -1,0 +1,24 @@
+// check to see if a number is positive,negative or zero using if and else
+int main () {
+    
+    float num;
+    
+    printf("Enter the number:");
+    scanf("%f",&num);
+    
+    if (num > 0) {
+        printf("Then number you entered is positive");
+    }
+    
+    else if (num == 0) {
+        printf("The number you entered is zero");
+    }
+    
+    else if (num < 0) {
+        printf("The number you entered is negative");
+    }
+    else {
+        printf("Unknown");
+    }
+}
+
