@@ -1,0 +1,35 @@
+// Program to check profit,loss, nothing
+
+int main() {
+
+    float cp,sp,pl;
+    
+    printf("Enter you cost price and selling price:");
+    scanf("%f%f",&cp,&sp);
+    
+    if (sp > cp) {
+        pl = sp - cp;
+        printf("You made a PROFIT of: %f",pl);
+    }
+    
+    else if (sp == cp) {
+        printf("You did not make a profit or loss");
+    }
+    
+    else if (cp > sp) {
+        pl = cp - sp;
+        printf("You made a LOSS of: %f",pl);
+    }
+    
+    else {
+        printf("Error");
+    }
+
+
+
+
+
+
+
+    
+}
