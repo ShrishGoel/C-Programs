@@ -1,0 +1,19 @@
+// Program to check leap year
+
+
+    int main () {
+        
+        int year;
+        
+        printf("Enter the year:");
+        scanf("%d",&year);
+        
+        if (year%4 == 0) {
+            printf("Its a LEAP year!!");
+        }
+        
+        else {
+            printf("Its NOT a LEAP year!!");
+        }
+        
+    }
