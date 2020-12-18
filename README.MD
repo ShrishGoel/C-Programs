@@ -12,3 +12,4 @@ This Repositorie contains all my C programs.
 10. Electricity Bill Calculator - https://github.com/ShrishGoel/C-Projects/blob/main/Electricity%20Bill%20Calculator
 11. Positive,negative or zero - https://github.com/ShrishGoel/C-Projects/blob/main/Positive%2C%20Negative%20or%20zero
 12. Profit,loss or nothing - https://github.com/ShrishGoel/C-Projects/blob/main/Profit%2Closs%20or%20nothing
+13. Program to check leap year - https://github.com/ShrishGoel/C-Projects/blob/main/Program%20to%20check%20leap%20year
