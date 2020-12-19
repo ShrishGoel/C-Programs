@@ -1,0 +1,27 @@
+// Greatest of three numbers using if and else
+int main() {
+    float a,b,c,gn;
+    
+    printf("Enter three numbers:");
+    scanf("%f%f%f",&a,&b,&c);
+    
+    if (a > b) {
+        gn = a;
+    printf("The greatest number is %f",gn);
+    }
+    
+   else if (b > c) {
+        gn = b;
+        printf("The greatest number is %f",gn);
+    }
+    else if (a < c ) {
+        gn = c;
+        printf("The greatest number is %f",gn);
+    }
+    else {
+        printf("All the numbers entered are same");
+    }
+    
+    
+}
+
