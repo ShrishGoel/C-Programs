@@ -1,0 +1,31 @@
+//Gives a letter grade to a student according to their percent grade using if, else
+
+int main () {
+    float grade;
+    char l;
+    
+    printf("Enter your grade :");
+    scanf("%f",&grade);
+    
+    if (grade >= 90) {
+        l = 'A';
+    }
+    else if (grade >= 80) {
+        l = 'B';
+    }
+    else if (grade >= 70) {
+        l = 'C';
+    }
+    else if (grade >= 60) {
+        l = 'D';
+    }
+    else  {
+        l = 'F';
+    }
+    
+    printf("You recieved %c",l);
+    
+    
+    
+}
+
