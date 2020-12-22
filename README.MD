@@ -16,3 +16,4 @@ This Repositorie contains all my C programs.
 14. Greatest of Three Numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20Of%20Three%20Numbers
 15. Letter Grade - https://github.com/ShrishGoel/C-Projects/blob/main/Letter%20Grade
 16. Greatest of four numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20four%20numbers
+17. Greatest of five numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20five%20numbers
