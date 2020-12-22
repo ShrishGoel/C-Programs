@@ -1,0 +1,72 @@
+// Program of greatest of 5 digit numbers
+// first compare all numbers with a,b,c,d,e
+
+int main ()
+{
+
+  float a, b, c, d, e;
+
+  printf ("Enter five numbers:");
+  scanf ("%f%f%f%f%f", &a, &b, &c, &d, &e);
+  if (a > b)
+    {
+      if (a > c)
+	{
+
+
+	  if (a > d)
+	    {
+
+
+	      if (a > e)
+		{
+		  printf ("The greatest numbers is: %f", a);
+		}
+	      else
+		{
+		  printf ("The greatest number is: %f", e);
+
+		}
+	    }
+	  else
+	    {
+	      printf ("The greatest number is: %f", d);
+	    }
+	}
+      else
+	{
+	  printf ("The greatest number is: %f", c);
+	}
+    }
+  else if (b > c)
+    printf ("The greatest number is: %f", b);
+
+  else if (c > d)
+    {
+      printf ("The greatest number is: %f", c);
+    }
+
+  else if (d > e)
+    {
+      printf ("The greatest number is: %f", d);
+    }
+
+  else
+    {
+
+
+      printf ("%f", e);
+    }
+
+
+  if (a == b == c == d == e)
+    {
+      printf ("\nAll the numbers entered are the same");
+    }
+
+
+
+
+
+}
+
