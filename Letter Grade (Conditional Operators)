@@ -1,0 +1,20 @@
+// Program to calculate your letter grade using conditional operators
+// 90 - 100 = A  80 - 89 = B  70 - 79 = C   60 - 69= D 0 - 59 = F
+
+int main ()
+{
+
+  float percent;
+  printf ("Enter your percent:");
+  scanf ("%f", &percent);
+  char grade = 'A';
+  grade = (percent >= 90 ? grade = 'A' : percent >= 80 ? grade =
+	   'B' : percent >= 70 ? grade = 'C' : percent >= 60 ? grade =
+	   'D' : percent < 60 ? grade = 'F' : printf ("Mysterious"));
+  printf ("Your letter grade is: %c", grade);
+
+
+}
+
+
+
