@@ -18,3 +18,4 @@ This Repositorie contains all my C programs.
 16. Greatest of four numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20four%20numbers
 17. Greatest of five numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20five%20numbers
 18. Letter Grade (Conditional Operators) - https://github.com/ShrishGoel/C-Projects/blob/main/Letter%20Grade%20(Conditional%20Operators)
+19. Greatest of four numbers (Conditional operators) - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20four%20numbers%20(Conditional%20operators)
