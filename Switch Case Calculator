@@ -1,0 +1,41 @@
+//Program to do operation that is entered using switch case
+
+int main() {
+    
+    char opp;
+    float num,num2,total;
+    
+    printf("Enter the operation you want to perform(+,-,*,/)");
+    scanf("%c",&opp);
+    
+    printf("Enter two numbers:");
+    scanf("%f%f",&num,&num2);
+    
+    switch(opp) {
+        
+        case '+':
+        total = num + num2;
+        printf("The answer is %f",total);
+        break;
+        case '-':
+        total = num - num2;
+        printf("The answer is %f",total);
+        break;
+        case '*':
+        total = num * num2;
+        printf("The answer is %f",total);
+        break;
+        case '/':
+        total = num/num2;
+        printf("The answer is %f",total);
+        break;
+        default:
+        printf("That's not a valid operator");
+        break;
+    }
+    
+       
+    
+    
+}
+
