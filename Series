@@ -1,0 +1,27 @@
+//A type of series using loops
+
+int main() {
+    
+    int n;
+    
+    int total = 0;
+    
+    
+    
+    printf("Enter the N:");
+    scanf("%d",&n);
+    
+    
+    for (int x = 0; x <= n;x++) {
+        
+        printf(" %d +",x);
+        total = total + x;
+        
+        
+        
+    }
+    printf("= %d",total);
+    
+    
+}
+
