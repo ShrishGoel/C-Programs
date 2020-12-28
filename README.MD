@@ -21,3 +21,4 @@ This Repositorie contains all my C programs.
 19. Greatest of four numbers (Conditional operators) - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20four%20numbers%20(Conditional%20operators)
 20. Switch case - Monday to Thursday - https://github.com/ShrishGoel/C-Projects/blob/main/Switch%20case%20-%20Monday%20to%20Thursday
 21. Switch Case Calculator - https://github.com/ShrishGoel/C-Projects/blob/main/Switch%20Case%20Calculator
+22. Series - https://github.com/ShrishGoel/C-Projects/blob/main/Series
