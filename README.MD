@@ -23,3 +23,4 @@ This Repositorie contains all my C programs.
 21. Switch Case Calculator - https://github.com/ShrishGoel/C-Projects/blob/main/Switch%20Case%20Calculator
 22. Series - https://github.com/ShrishGoel/C-Projects/blob/main/Series
 23. Multiplication Table - https://github.com/ShrishGoel/C-Projects/blob/main/Multiplication%20Table
+24. Square and cube - https://github.com/ShrishGoel/C-Projects/blob/main/Square%20and%20cube
