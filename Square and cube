@@ -1,0 +1,35 @@
+// Prints all the cube and square till the number entered by the user using loops
+
+int main() {
+    int n;
+    int square = 0;
+    int cube = 0;
+    
+    printf("Enter the number till you want the cubes and squares:");
+    scanf("%d",&n);
+    
+    for(int x = 1; x <= n;x++) {
+        square = x * x;
+        cube = x * x * x;
+        
+        printf("%d -> %d %d\n",x,square,cube);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+}
+
