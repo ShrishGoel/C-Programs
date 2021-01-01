@@ -1,0 +1,26 @@
+// Finds out the average bill using loops 
+
+int main() {
+    float products;
+    float av = 0;
+    float price = 0;
+    float j = 0;
+    float  total = 0;
+    int y = 1;
+    
+    printf("Enter the amount of products:");
+    scanf("%f",&products);
+    
+    for (int x = 1; x <= products; x++,y++) {
+        printf("Enter the price of the %d object:",y);
+        scanf("%f",&price);
+        j = j + price;
+    }
+ 
+    total = j/products;
+    printf("The average bill is %f",total);
+    
+    
+}
+
+
