@@ -26,3 +26,4 @@ This Repositorie contains all my C programs.
 24. Square and cube - https://github.com/ShrishGoel/C-Projects/blob/main/Square%20and%20cube
 25. Average bill - https://github.com/ShrishGoel/C-Projects/blob/main/Average%20Bill
 26. Sum of odd and even - https://github.com/ShrishGoel/C-Projects/blob/main/Sum%20of%20odd%20and%20even
+27. All numbers till N - https://github.com/ShrishGoel/C-Projects/blob/main/All%20numbers%20till%20N
