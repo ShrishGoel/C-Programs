@@ -1,0 +1,18 @@
+//Prints all the number till n and back to zero from n
+int main() {
+    
+    int n;
+    
+    printf("Enter the N:");
+    scanf("%d",&n);
+    
+     int x = 1;
+    int y = n;
+   
+    for (int z = 0; z < n; z++,y--,x++) {
+        
+        printf("%d %d\n",x,y);
+        
+    }
+}
+
