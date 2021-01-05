@@ -1,0 +1,23 @@
+// Greatest of five numbers using if and else using the most efficient method
+int main() {
+    int a,b,c,d,e;
+    printf("Enter five numbers:");
+    scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+    int max;
+    if(a > b)
+    max = a;
+    else
+    max = b;
+    
+    if(c > b)
+    max = c;
+    
+    if(d > c)
+    max = d;
+    
+    if(e > d)
+    max = e;
+
+printf("%d",max);
+    
+};
