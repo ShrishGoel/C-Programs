@@ -29,3 +29,4 @@ This Repositorie contains all my C programs.
 27. All numbers till N - https://github.com/ShrishGoel/C-Projects/blob/main/All%20numbers%20till%20N
 28. Greatest of five numbers (Shortcut) - https://github.com/ShrishGoel/C-Programs/blob/main/Greatest%20of%20five%20numbers%20(Shortcut)
 29. Nested Loop Pattern 1 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%201
+30. Nested Loop Pattern 2 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%202
