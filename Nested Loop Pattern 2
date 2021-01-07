@@ -1,0 +1,19 @@
+//Makes a cool pattern using nested loops
+
+int main() {
+    int n;
+    printf("Enter the N:");
+    scanf("%d",&n);
+    int N;
+    printf("Enter the n:");
+    scanf("%d",&N);
+    for(int x = 0; x < n; x++) {
+        for (int y = 1; y >= 0; y--) {
+            for(int z = 0; z < N; z++) {
+            printf("%d",y);
+            }
+            printf("\n");
+        }
+     
+;    }
+}
