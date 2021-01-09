@@ -1,0 +1,13 @@
+//Makes a pattern using nested loops
+int main() {
+    int z = 1;
+    for(int x = 0; x < 4;x++) {
+        
+        for(int y = 0; y < 4;y++,z++) {
+            printf("%d ",z);
+        }
+        printf("\n");
+    }
+    
+    
+}
