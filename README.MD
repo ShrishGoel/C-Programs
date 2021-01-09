@@ -16,7 +16,7 @@ This Repositorie contains all my C programs.
 14. Greatest of Three Numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20Of%20Three%20Numbers
 15. Letter Grade - https://github.com/ShrishGoel/C-Projects/blob/main/Letter%20Grade
 16. Greatest of four numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20four%20numbers
-17. Greatest of five numbers - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20five%20numbers
+17. Greatest of five numbers - https://github.com/ShrishGoel/C-Projects/blhttps://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%204ob/main/Greatest%20of%20five%20numbers
 18. Letter Grade (Conditional Operators) - https://github.com/ShrishGoel/C-Projects/blob/main/Letter%20Grade%20(Conditional%20Operators)
 19. Greatest of four numbers (Conditional operators) - https://github.com/ShrishGoel/C-Projects/blob/main/Greatest%20of%20four%20numbers%20(Conditional%20operators)
 20. Switch case - Monday to Thursday - https://github.com/ShrishGoel/C-Projects/blob/main/Switch%20case%20-%20Monday%20to%20Thursday
@@ -31,3 +31,4 @@ This Repositorie contains all my C programs.
 29. Nested Loop Pattern 1 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%201
 30. Nested Loop Pattern 2 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%202
 31. Nested Loop Pattern 3 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%203
+32. Nested Loop Pattern 4 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%204
