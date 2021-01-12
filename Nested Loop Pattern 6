@@ -1,0 +1,13 @@
+// Makes a cool pattern using nested loops
+
+int main() {
+    
+    for(int x = 65; 68 >= x; x++) {
+        
+        for(int y = 65; y <= x; y++) {
+            printf("%d ",y);
+        }
+        printf("\n");
+    }
+}
+
