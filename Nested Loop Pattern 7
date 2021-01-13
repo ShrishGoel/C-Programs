@@ -1,0 +1,15 @@
+// Makes a cool pattern using nested loops
+
+int main() {
+    
+    for(int x = 68; x >= 65; x--) {
+        
+        for(int y = 65; x >= y; y++) {
+            char a = y;
+            printf("%c ",a);
+        }
+        printf("\n");
+    }
+    
+}
+
