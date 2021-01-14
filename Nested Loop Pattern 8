@@ -1,0 +1,12 @@
+// Makes a cool pattern using Nested Loops
+
+int main() {
+    
+    for(int x = 50; x >= 20; x-=10) {
+        for(int y = 50; y>= x; y-=10) {
+            printf("%d ",y);
+        }
+        printf("\n");
+    }
+}
+
