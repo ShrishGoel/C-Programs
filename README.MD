@@ -35,3 +35,4 @@ This Repositorie contains all my C programs.
 33. Nested Loop Pattern 5 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20loop%20pattern%205
 34. Nested Loop Pattern 6 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%206
 35. Nested Loop Pattern 7 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%207
+36. Nested Loop Pattern 8 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%208
