@@ -1,0 +1,14 @@
+int main() {
+    
+    int N;
+    int x = 1;
+    int y = 1;
+    printf("Enter the N:");
+    scanf("%d",&N);
+    
+    while(N >= y) {
+        x = x * y;
+        y++;
+    }
+    printf("The factorial is: %d",x);
+}
