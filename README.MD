@@ -40,3 +40,4 @@ This Repositorie contains all my C programs.
 38. Nested Loop Pattern 10 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%2010
 39. Nested Loop Pattern 11 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%2011
 40. Nested Loop Pattern 12 - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%2012
+41. Factorial till N - https://github.com/ShrishGoel/C-Programs/blob/main/Factorial%20till%20N
