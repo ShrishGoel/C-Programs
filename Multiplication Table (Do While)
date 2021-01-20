@@ -1,0 +1,16 @@
+// Creates a multiplication table till 10 of the number entered using do while loop
+int main() {
+    
+    int N;
+    int x = 1;
+    int product = 1;
+    printf("Enter the N:");
+    scanf("%d",&N);
+    
+    do {
+        product = N * x;
+        printf("%d * %d = %d \n",N,x,product);
+        x++;
+    }
+    while(x <= 10);
+}
