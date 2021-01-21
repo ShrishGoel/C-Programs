@@ -1,0 +1,24 @@
+//This program prints the reverse of a number in letter format.
+int main ()
+{
+
+  int n = 5;
+  int s;
+  printf ("Enter the N:");
+  scanf ("%d", &n);
+  while (n != 0)
+    {
+      s = n % 10;
+      n = n / 10;
+      int max =
+	(s == 1 ? printf ("one ") : s == 2 ? printf ("two ") : s ==
+	 3 ? printf ("three ") : s == 4 ? printf ("four ") : s ==
+	 5 ? printf ("five ") : s == 6 ? printf ("six ") : s ==
+	 7 ? printf ("seven ") : s == 8 ? printf ("eight ") : s ==
+	 9 ? printf ("nine ") : s ==
+	 0 ? printf ("zero ") : printf ("Unknown"));
+
+    }
+
+}
+
