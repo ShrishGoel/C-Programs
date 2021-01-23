@@ -43,3 +43,4 @@ This Repositorie contains all my C programs.
 41. Factorial till N - https://github.com/ShrishGoel/C-Programs/blob/main/Factorial%20till%20N
 42. Multiplication Table (Do While) - https://github.com/ShrishGoel/C-Programs/blob/main/Multiplication%20Table%20(Do%20While)
 43. Rev of a number(Special) - https://github.com/ShrishGoel/C-Programs/blob/main/Rev%20of%20a%20number(Special)
+44. Even or odd digit - https://github.com/ShrishGoel/C-Programs/blob/main/Even%20or%20odd%20digit
