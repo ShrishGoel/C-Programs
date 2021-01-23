@@ -1,0 +1,43 @@
+// Prints all palindrome numbers till N
+
+int main ()
+{
+
+  int n;
+  int a = 0;
+  int rev = 0;
+  int count = 0;
+int y = 11; 
+  printf ("Enter the N:");
+  scanf ("%d", &n);
+  for (int x = 11; x <= n; x++)
+    {
+     int j = x;
+      while (j != 0)
+	{
+	  
+	  a = j % 10;
+	  j = j / 10;
+	  rev = rev * 10 + a;
+   
+	}
+
+      if (rev == x)
+	{
+	  printf ("Palindrome: %d \n", x);
+	  count++;
+	}
+
+     j = x;
+     rev = 0;
+
+    }
+  if (count == 0)
+    {
+      printf ("There was no Palindrome found");
+     
+    }
+    printf("Plaindrome found: %d",count);
+}
+
+
