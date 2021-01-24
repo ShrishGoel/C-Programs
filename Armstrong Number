@@ -1,0 +1,23 @@
+// Checks if a number in a armstrong number
+
+int main() {
+    
+    int n,cube = 0,sum=0;
+    int a = 0;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    int N = n;
+    while(N != 0) {
+        
+        a = N%10;
+        N = N/10;
+        cube = a * a * a;
+        sum = sum + cube;
+    }
+    if(sum == n) {
+        printf("This is an armstrong number");
+    }
+    else{
+        printf("This is not an armstrong number");
+    }
+}
