@@ -46,3 +46,4 @@ This Repositorie contains all my C programs.
 44. Even or odd digit - https://github.com/ShrishGoel/C-Programs/blob/main/Even%20or%20odd%20digit
 45. Palindrome till N - https://github.com/ShrishGoel/C-Programs/blob/main/Palindrome%20till%20N
 46. Armstrong Number - https://github.com/ShrishGoel/C-Programs/blob/main/Armstrong%20Number
+47. Fib Series - https://github.com/ShrishGoel/C-Programs/blob/main/Fib%20Series
