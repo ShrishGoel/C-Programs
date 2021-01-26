@@ -47,3 +47,4 @@ This Repositorie contains all my C programs.
 45. Palindrome till N - https://github.com/ShrishGoel/C-Programs/blob/main/Palindrome%20till%20N
 46. Armstrong Number - https://github.com/ShrishGoel/C-Programs/blob/main/Armstrong%20Number
 47. Fib Series - https://github.com/ShrishGoel/C-Programs/blob/main/Fib%20Series
+48. Array 1 - Inputs price and average price - https://github.com/ShrishGoel/C-Programs/blob/main/Array%201%20-%20Inputs%20price%20and%20average%20price
