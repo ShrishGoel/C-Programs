@@ -1,0 +1,22 @@
+//Inputs the price of products and stores into the array and finds the average price
+int main() {
+    
+    int n;
+    int sum = 0;
+    int average = 0;
+    
+    printf("How many products are you going to enter?");
+    scanf("%d",&n);
+    
+    int price[n];
+    
+    for(int x = 0; x < n; x++) {
+        printf("Enter the price of %d product:",x+1);
+        scanf("%d",&price[x]);
+        sum = sum + price[x];
+    }
+    
+    average = sum/n;
+    
+    printf("The total sum is: %d \nThe average price is: %d \n",sum,average);
+}
