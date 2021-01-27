@@ -1,0 +1,24 @@
+//Stores grade of students and array and then finds the number of students who have a grade greater than 80 and students with grade between 60 to 70
+int main() {
+    
+    int n;
+    int goodgrade = 0;
+    int badgrade = 0;
+    printf("How many students are you grading?");
+    scanf("%d",&n);
+    int storage[n];
+    for(int x = 0; x < n; x++) {
+        printf("Enter the marks of student %d:",x+1);
+        scanf("%d",&storage[x]);
+        
+        if(storage[x] >= 80) {
+            goodgrade++;
+        }
+        else if(storage[x] > 60 && storage[x] < 70) {
+            badgrade++;
+        }
+    }
+    
+    printf("Total number of students who got 80 and above is: %d\nTotal number of students who got grade between 60 and 70 is: %d",goodgrade,badgrade);
+    
+}
