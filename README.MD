@@ -49,3 +49,4 @@ This Repositorie contains all my C programs.
 47. Fib Series - https://github.com/ShrishGoel/C-Programs/blob/main/Fib%20Series
 48. Array 1 - Inputs price and average price - https://github.com/ShrishGoel/C-Programs/blob/main/Array%201%20-%20Inputs%20price%20and%20average%20price
 49. Arrays 2 - Good Grade and Bad Grade - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%202%20-%20Good%20Grade%20and%20Bad%20Grade
+50. Arrays 3 - Sum of two arrays - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%203%20-%20Sum%20of%20two%20arrays
