@@ -1,0 +1,33 @@
+// Inputs two arrays and then adds them together
+
+int main() {
+    
+    int n;
+    
+    printf("How many numbers are you going to enter:");
+    scanf("%d",&n);
+    
+    int A[n];
+    int B[n];
+    int c;
+    
+    for(int x = 0; x < n; x++) {
+        printf("Enter Value at A[%d]:",x+1);
+        scanf("%d",&A[x]);
+    }
+    printf("\n\n");
+     for(int x = 0; x < n; x++) {
+        printf("Enter Value at B[%d]:",x+1);
+        scanf("%d",&B[x]);
+        
+      
+    }
+    
+    printf("\n\nSum of Two Arrays is:\n");
+    
+    for(int x = 0; x<n; x++) {
+    int c = B[x] + A[x];
+    printf("C[%d]:%d\n",x+1,c);
+    }
+}
+
