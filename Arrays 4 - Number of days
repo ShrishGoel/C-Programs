@@ -1,0 +1,33 @@
+//Calculates the days between start month and end month
+
+int main() {
+    
+    int sm,em;
+    int total = 0;
+    printf("Enter the start month:");
+    scanf("%d",&sm);
+    
+    printf("Enter the End month:");
+    scanf("%d",&em);
+    
+    for(int x = sm; x <= em;x++) {
+        
+        if(x%2 != 0) {
+            printf("31 + ");
+            total = total + 31;
+        }   
+        
+        else if(x == 2) {
+             printf("28 + ");
+            total = total + 28;
+      
+        }
+        else if(x%2 == 0) {
+             printf("30 + ");
+            total = total + 30;
+        }
+     
+    }
+    printf("= %d",total);
+}
+
