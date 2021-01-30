@@ -1,0 +1,34 @@
+//Searches in two arrays and finds common elements
+
+int main() {
+    
+   int n;
+    printf("How many numbers are you going to enter:");
+    scanf("%d",&n);
+    int a[n];
+    int b[n];
+    int count;
+    
+    for(int x = 0; x < n; x++) {
+        
+        printf("Enter %d Number for first array:",x+1);
+        scanf("%d",&a[x]);
+    } 
+    
+    for(int x = 0; x < n; x++) {
+        
+        printf("Enter %d Number for second array:",x+1);
+        scanf("%d",&b[x]);
+    }
+    
+    for (int x = 0; x < n; x++) {
+        
+        for(int y = 0; y < n; y++) {
+            if(a[y] == b[y]) {
+                printf("%d was found\n",a[x]);
+                count++;
+            }
+        }
+    }
+    printf("%d",count);
+}
