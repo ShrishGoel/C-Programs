@@ -51,3 +51,4 @@ This Repositorie contains all my C programs.
 49. Arrays 2 - Good Grade and Bad Grade - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%202%20-%20Good%20Grade%20and%20Bad%20Grade
 50. Arrays 3 - Sum of two arrays - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%203%20-%20Sum%20of%20two%20arrays
 51. Arrays 4 - Number of days - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%204%20-%20Number%20of%20days
+52. Arrays 5 - Searching in two array - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%205%20-%20Searching%20in%20two%20array
