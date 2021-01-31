@@ -1,0 +1,30 @@
+//Sorts a array from ascending to descending
+
+int main() {
+    
+    int n = 0;
+    int storage = 0;
+    
+    printf("Enter the numbers you are going to enter:");
+    scanf("%d",&n);
+    int array[n];
+    for(int x = 0; x < n; x++) {
+        printf("Enter the %d number:",x+1);
+        scanf("%d",&array[x]);
+    }
+    
+    for(int x = 0; x < n; x++) {
+        for(int y = 0; y < n - 1 - x; y++) {
+            if(array[y] > array[y+1]) { 
+                storage = array[y];
+                array[y] = array[y+1];
+                array[y+1] = storage;
+            }
+        }
+    }
+    for(int x = 0; x < n; x++) {
+        printf("%d, ",array[x]);
+    }
+  }
+
+
