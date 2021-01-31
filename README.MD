@@ -52,3 +52,4 @@ This Repositorie contains all my C programs.
 50. Arrays 3 - Sum of two arrays - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%203%20-%20Sum%20of%20two%20arrays
 51. Arrays 4 - Number of days - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%204%20-%20Number%20of%20days
 52. Arrays 5 - Searching in two array - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%205%20-%20Searching%20in%20two%20array
+53. Array 6 - Sorting Array - A to D - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%206%20-%20Sorting%20Array%20-%20A%20to%20D
