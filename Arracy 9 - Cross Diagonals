@@ -1,0 +1,35 @@
+//Inputs a array put prints only the cross diagonal numbers
+
+int main() {
+    int n,m;
+    
+    printf("Enter the rows and colums:");
+    scanf("%d%d",&m,&n);
+    int array[m][n];
+    
+    for(int x = 0; x < m; x++) {
+        for(int y = 0; y < n; y++) {
+            printf("Enter Value at [%d][%d]:",x,y);
+            scanf("%d",&array[x][y]);
+            
+        }
+    }
+    
+    for(int x = 0; x < m; x++) {
+        for(int y = 0; y < n; y++) {
+            if(x%2 == 0 && y%2 == 0) {
+                printf("%d",array[x][y]);
+                printf("\t");
+        }
+        else if(x == y) {
+            printf("%d",array[x][y]);
+            printf("\t");
+        }
+        else{
+            printf("0");
+            printf("\t");
+        }
+    }
+    printf("\n");
+}
+}
