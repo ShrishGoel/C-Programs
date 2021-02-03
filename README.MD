@@ -1,4 +1,4 @@
-# C-Projects
+# C-Programs
 This Repositorie contains all my C programs. 
 1. Sum of digits of a number - https://github.com/ShrishGoel/C-Projects/blob/main/Sum%20of%20digits%20of%20a%20number
 2. Reverse of a number - https://github.com/ShrishGoel/C-Projects/blob/main/Reverse%20of%20a%20number
@@ -55,4 +55,4 @@ This Repositorie contains all my C programs.
 53. Arrays 6 - Sorting Array - A to D - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%206%20-%20Sorting%20Array%20-%20A%20to%20D
 54. Arrays 7 - Sorting Array - D to A - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%207%20-%20Sorting%20Array%20-%20D%20to%20A
 55. Arrays 8 - Diagonal Elements -  https://github.com/ShrishGoel/C-Programs/blob/main/Array%208%20-%20Diagonal%20Elements
-56. Arracy 9 - Cross Diagonals - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%209%20-%20Cross%20Diagonals
+56. Arrays 9 - Cross Diagonals - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%209%20-%20Cross%20Diagonals
