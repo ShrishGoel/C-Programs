@@ -1,0 +1,36 @@
+// Sums the numbers in two maxtrix
+
+int main() {
+    int m,n;
+    
+    printf("Enter the rows and colums:");
+    scanf("%d%d",&m,&n);
+    int a[m][n];
+    int b[m][n];
+    int c[m][n];
+    
+    for(int x = 0; x < m; x++) {
+        for(int y = 0; y < m; y++) {
+            printf("Enter value of first array at [%d][%d]:",x,y);
+            scanf("%d",&a[x][y]);
+        }
+    }  
+    printf("\n");
+    
+    for(int x = 0; x < m; x++) {
+        for(int y = 0; y < m; y++) {
+            printf("Enter value of second array at[%d][%d]:",x,y);
+            scanf("%d",&b[x][y]);
+        }
+    }
+    printf("\n");
+    
+    for(int x = 0; x < m; x++) {
+        for(int y = 0; y < n; y++) {
+            c[x][y] = a[x][y] + b[x][y];
+            printf("Sum at[%d][%d] is: %d",x,y,c[x][y]);
+            printf("\n");
+        }
+        
+    }
+}
