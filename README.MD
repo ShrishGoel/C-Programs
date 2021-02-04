@@ -56,3 +56,4 @@ This Repositorie contains all my C programs.
 54. Arrays 7 - Sorting Array - D to A - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%207%20-%20Sorting%20Array%20-%20D%20to%20A
 55. Arrays 8 - Diagonal Elements -  https://github.com/ShrishGoel/C-Programs/blob/main/Array%208%20-%20Diagonal%20Elements
 56. Arrays 9 - Cross Diagonals - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%209%20-%20Cross%20Diagonals
+57. Arrays 10 - Arrays 10 - Sum of two matrix - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%2010%20-%20Sum%20of%20two%20matrix
