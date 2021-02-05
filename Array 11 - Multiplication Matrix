@@ -1,0 +1,46 @@
+// Inputs two 2-d arrays and then finds the multiplication Matrix
+
+int main() {
+    int n,ra,ca,rb,cb,sum;
+    printf("Enter the order of first matrix:");
+    scanf("%d%d",&ra,&ca);
+    printf("Enter the order of second matrix");
+    scanf("%d%d",&rb,&cb);
+    
+    if(ca != rb) {
+        printf("Invalid");
+    }
+    else {
+        int a[ra][ca];
+        int b[rb][cb];
+        int ab[ra][cb];
+        for(int i = 0; i < ra; i++ ) {
+            for(int y = 0; y < ca; y++) {
+                printf("Enter value in A[%d][%d]:",i,y);
+                scanf("%d",&a[i][y]);
+            }
+        }
+        
+        for(int i = 0; i < rb; i++ ) {
+            for(int y = 0; y < cb; y++) {
+                printf("Enter value in b[%d][%d]:",i,y);
+                scanf("%d",&b[i][y]);
+            }
+        }
+        
+        for(int x = 0; x < ra; x++) {
+            for(int y= 0; y < cb; y++) {
+                for(int z = 0; z < ca; z++) {
+                    sum = sum + a[x][z] + b[z][y];
+                }
+                ab[x][y] = sum;
+            }
+        }
+        for(int x = 0; x < ra; x++) {
+            for(int y = 0; y < cb; y++) {
+                printf("%d ",ab[x][y]);
+            }
+            printf("\n");
+        }
+}
+}
