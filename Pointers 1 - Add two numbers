@@ -1,0 +1,13 @@
+// Add two numbers using pointers
+
+int main() {
+    int a,b,*c,*d,sum;
+    
+    printf("Enter two numbers:");
+    scanf("%d%d",&a,&b);
+    
+    c = &a;
+    d = &b;
+    sum = *c + *d;
+    printf("The sum is: %d",sum);
+}
