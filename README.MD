@@ -58,3 +58,4 @@ This Repositorie contains all my C programs.
 56. Arrays 9 - Cross Diagonals - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%209%20-%20Cross%20Diagonals
 57. Arrays 10 - Arrays 10 - Sum of two matrix - https://github.com/ShrishGoel/C-Programs/blob/main/Arrays%2010%20-%20Sum%20of%20two%20matrix
 58. Array 11 - Multiplication Matrix - https://github.com/ShrishGoel/C-Programs/blob/main/Array%2011%20-%20Multiplication%20Matrix
+59. Pointers 1 - Add two numbers - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%201%20-%20Add%20two%20numbers
