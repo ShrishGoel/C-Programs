@@ -1,0 +1,16 @@
+// Finds the interest using pointers
+
+int main() {
+    float r,t,p,*ar,*bt,*cp,interest;
+    
+    printf("Enter the rate,time,principal:");
+    scanf("%f%f%f",&r,&t,&p);
+    ar = &r;
+    bt = &t;
+    cp = &p;
+    
+    interest = (*ar+*bt+*cp)/100.0;
+    printf("The interest is: %f",interest);
+    
+    
+}
