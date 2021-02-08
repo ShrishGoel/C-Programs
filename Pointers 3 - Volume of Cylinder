@@ -1,0 +1,15 @@
+// Finds the volume of cylinder using pointers
+
+int main() {
+    float r,h,*ar,*ah,vol;
+    
+    printf("Enter the radius and the height of the cylinder:");
+    scanf("%f%f",&r,&h);
+    
+    ar = &r;
+    ah = &h;
+    
+    vol = 3.14 * *ar * *ah * *ar;
+    
+    printf("The volume of the cylinder is: %f",vol);
+}
