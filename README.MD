@@ -60,3 +60,4 @@ This Repositorie contains all my C programs.
 58. Array 11 - Multiplication Matrix - https://github.com/ShrishGoel/C-Programs/blob/main/Array%2011%20-%20Multiplication%20Matrix
 59. Pointers 1 - Add two numbers - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%201%20-%20Add%20two%20numbers
 60. Pointers 2 - Interest - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%202%20-%20Interest
+61. Pointers 3 - Volume of Cylinder - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%203%20-%20Volume%20of%20Cylinder
