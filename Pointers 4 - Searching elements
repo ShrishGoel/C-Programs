@@ -1,0 +1,30 @@
+//Searches elements in a array using pointers
+
+int main() {
+    int n,find;
+    int count = 0;
+    printf("How many numbers are you going to enter:\n");
+    scanf("%d",&n);
+    int array[n];
+    int *p;
+    for(int x = 0; x < n; x++) {
+        printf("Enter the value at location %d:",x);
+        scanf("%d",&array[x]);
+    
+    }
+    
+    printf("\nEnter the value you want to find:\n");
+    scanf("%d",&find);
+    
+    for(int x = 0; x < n; x++) {
+        p = &array[x];
+        if(*p == find) {
+            printf("%d was found at location %d\n",*p,x);
+            count++;
+        }
+    }
+    if(count == 0) {
+        printf("The element does not exist in the array entered.");
+    }
+}
+
