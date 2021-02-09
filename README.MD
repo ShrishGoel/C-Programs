@@ -61,3 +61,5 @@ This Repositorie contains all my C programs.
 59. Pointers 1 - Add two numbers - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%201%20-%20Add%20two%20numbers
 60. Pointers 2 - Interest - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%202%20-%20Interest
 61. Pointers 3 - Volume of Cylinder - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%203%20-%20Volume%20of%20Cylinder
+62. Pointers 4 - Searching elements - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%204%20-%20Searching%20elements
+
