@@ -1,0 +1,22 @@
+// Finds the maximum value in a array using pointers
+
+int main() {
+    int n;
+    int big = 0;
+    int *p;
+    printf("How many numbers are you going to enter:");
+    scanf("%d",&n);
+    int array[n];
+    for(int x = 0; x < n; x++) {
+        printf("Enter the value for location %d:",x);
+        scanf("%d",&array[x]);
+    }
+    
+    for(int x = 0; x < n; x++) {
+        p = &array[x];
+        if(big < *p) {
+            big = *p;
+        } 
+    }
+    printf("The maximum value in the array entered is:%d",big);
+}
