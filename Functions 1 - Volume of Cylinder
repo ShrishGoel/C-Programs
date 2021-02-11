@@ -1,0 +1,15 @@
+// Calculates the volume of the cylinder using fucntions
+
+int main() {
+    void volume();
+    volume();
+    
+}
+
+void volume () {
+    int r,h,area;
+    printf("Enter the radius and the height of the cylinder:");
+    scanf("%d%d",&r,&h);
+    area = r*r*h*3.14;
+    printf("The area of the cylinder is: %d",area);
+}
