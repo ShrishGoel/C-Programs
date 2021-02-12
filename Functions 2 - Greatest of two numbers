@@ -1,0 +1,23 @@
+// Finds the greatest of two numbers using functions
+
+int main() {
+    
+    void greatest();
+    greatest();
+}
+
+void greatest() {
+    int a,b;
+    
+    printf("Enter two numbers:");
+    scanf("%d%d",&a,&b);
+    if(a > b) {
+        printf("The greatest number is: %d",a);
+    }
+    else if(a == b) {
+        printf("Both the numbres entered are the same");
+    }
+    else{
+        printf("The greatest number is: %d",b);
+    }
+}
