@@ -64,4 +64,5 @@ This Repositorie contains all my C programs.
 62. Pointers 4 - Searching elements - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%204%20-%20Searching%20elements
 63. Pointers 5 - Maximum Value in Array - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%205%20-%20Maximum%20Value%20in%20Array
 64. Functions 1 - Volume of Cylinder - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%201%20-%20Volume%20of%20Cylinder
+65. Functions 2 - Greatest of two numbers - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%202%20-%20Greatest%20of%20two%20numbers
 
