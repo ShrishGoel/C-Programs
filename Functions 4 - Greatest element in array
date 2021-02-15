@@ -1,0 +1,24 @@
+//Finds the greatest number in array using functions
+
+int main() {
+    void greatest();
+    greatest();
+}
+
+void greatest() {
+    int n,max;
+    printf("How many numbers are you going to enter?");
+    scanf("%d",&n);
+    int array[n];
+   for(int x = 0; x < n; x++) {
+       printf("Enter the value at location %d:",x);
+       scanf("%d",&array[x]);
+   }
+    max = array[0];
+    for(int x  = 0; x < n; x++) {
+        if(max < array[x]) {
+            max = array[x];
+        }
+    }
+    printf("The maximum number in this array is: %d",max);
+}
