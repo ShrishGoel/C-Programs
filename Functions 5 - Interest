@@ -1,0 +1,17 @@
+// Calculates the interest using functions
+
+int main() {
+    float interest(float p,float r,float t);
+    float p,r,t;
+    printf("Enter the principal,rate and time:");
+    scanf("%f%f%f",&p,&r,&t);
+     float a  = interest(p,r,t);   
+     printf("%f",a);
+}
+
+float interest(float a , float b , float c) {
+    float interest = (a*b*c)/100;
+    return interest;
+}
+
+
