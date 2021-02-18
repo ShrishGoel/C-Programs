@@ -1,0 +1,20 @@
+// Finds the greatest of two numbers using functions
+
+int main() {
+    float a,b;
+    float greatest(float a, float b);
+    printf("Enter two numbers:");
+    scanf("%f%f",&a,&b);
+    float c = greatest(a,b);
+    printf("The greatest number is: %f",c);
+}
+
+float greatest(float a, float b) {
+    if(a > b) {
+        return a;
+    }
+    else{
+        return b;
+    }
+}
+
