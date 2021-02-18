@@ -1,0 +1,24 @@
+//Calculates the area of a cone and a cylinder using functions 
+
+int main() {
+    float r,h;
+    float cylinder(float r, float h);
+    float cone(float r, float h);
+    printf("Enter the radius and height:");
+    scanf("%f%f",&r,&h);
+
+    float area = cylinder(r,h);
+ 
+    float area2 = cone(r,h);
+    printf("The area of the cylinder is: %f\n The area of the cone is: %f",area,area2);
+}
+
+float cylinder(float b, float c) {
+    float a = 3.14 * b * b *c;
+    return a;
+}
+
+float cone(float b, float c) {
+    float a = (b * b * 3.14 * c)/3;
+    return a;
+}
