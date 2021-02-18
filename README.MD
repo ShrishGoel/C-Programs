@@ -68,4 +68,5 @@ This Repositorie contains all my C programs.
 66. Functions 3 - Palindrome - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%203%20-%20Palindrome 
 67. Functions 4 - Greatest element in array - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%204%20-%20Greatest%20element%20in%20array
 68. Functions 5 - Interest - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%205%20-%20Maximum%20Value%20in%20Array
+69. Functions 6 - Area of cone and cylinder - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%206%20-%20Area%20of%20cone%20and%20cylinder
 
