@@ -1,0 +1,22 @@
+// Reverses a number using functions 
+
+int main() {
+    int n;
+    int reverse(int n);
+    printf("Enter a number:");
+    scanf("%d",&n);
+    
+    int a = reverse(n);
+    printf("The reverse of the number is: %d",a);
+}
+
+int reverse (int num) {
+    int copy = num;
+    int total = 0;
+    while(copy != 0) {
+        int b = copy%10;
+        copy = copy/10;
+        total = total*10 + b;
+    }
+    return total;
+}
