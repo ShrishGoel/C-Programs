@@ -1,0 +1,34 @@
+// Finds the greatest of three numbers using functions
+
+int main() {
+    float a,b,c;
+    float greatest(float a, float b, float c);
+    printf("Enter three numbers:");
+    scanf("%f%f%f",&a,&b,&c);
+    float d = greatest(a,b,c);
+    printf("The greatest number is: %f",d);
+}
+
+float greatest(float a, float b, float c) {
+    
+    if(a > b)
+    {
+        if(a > c) 
+        {
+        return a;    
+        }
+        else
+        {
+        return c; 
+        }
+        
+        }
+    else if(b > c) {
+        return b;
+    }
+    else {
+        return c;
+    }
+    
+    }
+    
