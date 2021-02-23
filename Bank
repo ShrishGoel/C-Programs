@@ -1,0 +1,83 @@
+// Does various fuctions a ATM does 
+
+int main() {
+    float balance;
+    printf("Welcome to the bank!!\n");
+    printf("Enter your current balance:");
+    scanf("%f",&balance);
+    if(balance > 0) {
+        void s(int balance);
+        s(balance);
+    }
+    
+    else {
+        printf("\nYou are in debt. Cannot withdraw money");
+    }
+    
+}
+
+void s(int balance) {
+    float deposit;
+    float depositfinal;
+    float withdraw;
+    float withdrawfinal;
+    int a;
+    int x = 1;
+    while(x > 0) {
+        printf("\nPlease select one of the actions:\n");
+        printf("Press 1 to withdraw\n");
+        printf("Press 2 to deposit\n");
+        printf("Press 3 to exit\n");
+        scanf("%d",&a);
+        
+        switch(a) {
+            case 1:
+            printf("How much money would you like to withdraw?(Enter positive values only)\n");
+            scanf("%f",&withdraw);
+            if(withdraw >= 0 && balance > withdraw) {
+                withdrawfinal = balance - withdraw;
+                printf("Printing %f dollars\n",withdraw);
+                printf("Done, Your new balance is: %f\n",withdrawfinal);
+                printf("\nAnything else you would like to do today?(enter 0 for no and 1 for yes)\n");
+                scanf("%d",&x);
+                balance = withdrawfinal;
+                }
+                else{
+                    printf("Error\n");
+                    x = 0;
+                    break;
+                }
+               
+                break;
+            case 2:
+            printf("How much money would you like to deposit?(Enter positive values only)\n");
+            scanf("%f",&deposit);
+            if(deposit >= 0) {
+                depositfinal = balance + deposit;
+                printf("Enter %f dollars:\n",deposit);
+                printf("Processing...\n");
+                printf("Done,Your new balance is %f\n",depositfinal);
+                printf("\nAnything else you would like to do today?(enter 0 for no and 1 for yes)\n");
+                scanf("%d",&x);
+                balance = depositfinal;
+            }
+            else {
+                printf("Error\n");
+                x = 0;
+                break;
+            }
+            
+            default:
+            printf("Command not recognized");
+            break;
+               case 3:
+             printf("Exiting...\n");
+            printf("Exit successfull");
+             x = 0;
+            break;
+        }
+        
+     
+    }
+}
+
