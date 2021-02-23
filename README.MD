@@ -72,3 +72,4 @@ This Repositorie contains all my C programs.
 70. Functions 7 - Greatest of two numbers - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%207%20-%20Greatest%20of%20two%20numbers
 72. Functions 8 - Reverse of a number - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%208%20-%20Reverse%20of%20a%20number
 73. Functions 9 - Greatest of three numbres - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%209%20-%20Greatest%20of%20three%20numbres
+74. Bank - https://github.com/ShrishGoel/C-Programs/blob/main/Bank
