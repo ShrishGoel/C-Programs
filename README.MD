@@ -74,3 +74,4 @@ This Repositorie contains all my C programs.
 73. Functions 9 - Greatest of three numbres - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%209%20-%20Greatest%20of%20three%20numbres
 74. Bank - https://github.com/ShrishGoel/C-Programs/blob/main/Bank
 75. Nested Loop Pattern 13  - https://github.com/ShrishGoel/C-Programs/blob/main/Nested%20Loop%20Pattern%2013
+76. Functions 10 - Max element in array using pointers - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2010%20-%20Max%20element%20in%20array%20using%20pointers
