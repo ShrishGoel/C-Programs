@@ -1,0 +1,28 @@
+// Finds the max element in array using pointers
+
+int main() {
+    int n;
+   
+    printf("How many numbers are you going to enter:");
+    scanf("%d",&n);
+    int array[n];
+    for(int x = 0; x < n; x++) {
+        printf("Enter the value at %d:",x);
+        scanf("%d",&array[x]);
+    }
+    
+    int *p = &array[0];
+     void searching(int n,int *p);
+    searching(n,p);
+}
+
+void searching(int n, int *p) {
+    int max = *p;
+    
+    for(int x = 0; x < n; x++) {
+        if(max < *(p+x)) {
+            max = *(p+x);
+        }
+    }
+    printf("The maximum element is: %d",max);
+}
