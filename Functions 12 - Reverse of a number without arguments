@@ -1,0 +1,21 @@
+// Finds the reverse of a number using functions without arguments
+
+int main() {
+    int num;
+    int rev(int num);
+    printf("Enter a number:");
+    scanf("%d",&num);
+    int a = rev(num);
+    printf("%d",a);
+}
+
+int rev(int num) {
+    int copy = num;
+    int total = 0;
+    while(copy != 0) {
+        int b = copy%10;
+        copy = copy/10;
+        total = total * 10 + b;
+    }
+    return total;
+}
