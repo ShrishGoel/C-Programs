@@ -77,4 +77,6 @@ This Repositorie contains all my C programs.
 76. Functions 10 - Max element in array using pointers - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2010%20-%20Max%20element%20in%20array%20using%20pointers
 77. Functions 11 - Area of cylinder - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2011%20-%20Area%20of%20cylinder
 78. Functions 12 - Reverse of a number without arguments - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2012%20-%20Reverse%20of%20a%20number%20without%20arguments
+79. Functions 13 - Greatest of three numbers without arguments - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2013%20-%20Greatest%20of%20three%20numbers%20without%20arguments
+
 
