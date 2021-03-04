@@ -79,4 +79,5 @@ This Repositorie contains all my C programs.
 78. Functions 12 - Reverse of a number without arguments - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2012%20-%20Reverse%20of%20a%20number%20without%20arguments
 79. Functions 13 - Greatest of three numbers without arguments - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2013%20-%20Greatest%20of%20three%20numbers%20without%20arguments
 80. Functions 14 - Total Marks in three subjects - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2014%20-%20Total%20Marks%20in%20three%20subjects
+81. Functions 15 - Interesting using pointers - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2015%20-%20Interesting%20using%20pointers
 
