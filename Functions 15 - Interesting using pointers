@@ -1,0 +1,20 @@
+// Finds the interest using pointers and functions
+
+int main() {
+    float p,r,t,um = 0;
+    printf("Enter pricipal,rate and time:");
+    scanf("%f%f%f",&p,&r,&t);
+    float *a = &p;
+    float *b = &r;
+    float *c = &t;
+    float *d = &um;
+    void interest(float *a, float *b, float *c,float *d);
+    
+    interest(a,b,c,d);
+    printf("%f",um);
+}
+
+void interest(float *p, float *r, float *t, float *i) {
+     *i = (*p + *r + *t) / 100;
+    
+}
