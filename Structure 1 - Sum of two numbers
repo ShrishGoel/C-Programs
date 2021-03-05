@@ -1,0 +1,15 @@
+// Sums two numbers using structure
+
+struct complex {
+    int a;
+    int b;
+    
+};
+
+int main() {
+    struct complex sum;
+    printf("Enter two numbers:");
+    scanf("%d%d",&sum.a,&sum.b);
+    int actualsum = sum.a + sum.b;
+    printf("The sum is: %d",actualsum);
+}
