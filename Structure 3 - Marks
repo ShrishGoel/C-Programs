@@ -1,0 +1,47 @@
+// Caculates the total marks for every student, min marks and the max marks for any number of students using structure
+
+struct marks {
+  float c,java,web;  
+};
+
+int main() {
+    int n;
+    printf("Enter the students:");
+    scanf("%d",&n);
+    struct marks array[n];
+    int arry[n];
+    
+    for(int x = 0; x < n; x++) {
+        printf("Enter the marks for c for %d student:",x+1);
+        scanf("%f",&array[x].c);
+        printf("Enter the marks for java for %d student:",x+1);
+        scanf("%f",&array[x].java);
+        printf("Enter the marks for web for %d student:",x+1);
+        scanf("%f",&array[x].web);
+        printf("\n");
+    }
+    
+    for(int x = 0; x < n; x++) {
+        float total = array[x].c + array[x].java + array[x].web;
+        printf("The total marks for %d student is: %f\n",x+1,total);
+        arry[x] = total;
+    }
+    
+    int ignore = arry[0];
+    int too = arry[0];
+    
+    for(int x = 0; x < n; x++) {
+        
+        if(ignore < arry[x]) {
+            ignore = arry[x];
+        }
+        if(too > arry[x]) {
+            too = arry[x];
+        }
+        
+    }
+    printf("\nThe minimum total marks is: %d\n",too);
+    printf("The maximum total marks is: %d",ignore);
+}
+
+
