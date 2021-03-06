@@ -82,4 +82,5 @@ This Repositorie contains all my C programs.
 81. Functions 15 - Interesting using pointers - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%2015%20-%20Interesting%20using%20pointers
 82. Structure 1 - Sum of two numbers - https://github.com/ShrishGoel/C-Programs/blob/main/Structure%201%20-%20Sum%20of%20two%20numbers
 83. Structure 2 - Time Calculator - https://github.com/ShrishGoel/C-Programs/blob/main/Structure%202%20-%20Time%20Calculator
+84. Structure 3 - Marks - https://github.com/ShrishGoel/C-Programs/blob/main/Structure%203%20-%20Marks
 
