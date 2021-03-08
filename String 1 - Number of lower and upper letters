@@ -1,0 +1,28 @@
+// Counts the number of upper case letters and lower case letters in a String entered by the user
+
+//Input a String from user and count No. of uppercase letters it contain.
+int main() {
+    char storage[100];
+    printf("Enter a string:");
+    gets(storage);
+    int ucount = 0;
+    int lcount = 0;
+    
+    for(int x = 0; storage[x] != 0; x++) {
+        if(storage[x] <= 90 && storage[x] >= 65) {
+            ucount++;
+        }
+        else if(storage[x] == 32) {
+            
+        }
+        
+        else if(storage[x] >= 97 && storage[x] <= 122) {
+            lcount++;
+        }
+    }
+    printf("The number of upper case letters is: %d\nThe number of lower case letters is: %d",ucount,lcount);
+}
+
+
+
+
