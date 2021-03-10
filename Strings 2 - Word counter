@@ -1,0 +1,24 @@
+//Input a line of multiple words from user and count No. of words it contain.
+
+int main() {
+    char storage[100];
+    printf("Enter a string of multiple words:");
+    gets(storage);
+    int count = 0;
+    for(int x = 0; storage[x] != 0; x++) {
+        if(storage[x] == 32) {
+            count++;
+        }
+    }
+    
+    
+      if(storage[0] != 0) {
+          count++;
+      }
+    
+    printf("The total number of words is: %d",count);
+}
+
+
+
+
