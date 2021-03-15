@@ -1,0 +1,24 @@
+//Input a string and convert its uppercase letters to smallcase and vice verse.
+int main ()
+{
+  char storage[100];
+  printf ("Enter a string:");
+  gets (storage);
+  for (int x = 0; storage[x] != 0; x++)  {
+      if (storage[x] >= 65 && storage[x] <= 90 ) {
+	 storage[x] = storage[x] + 32;
+	}
+	
+	 else if(storage[x] >= 97 && storage[x] <= 122) {
+	     storage[x] = storage[x] - 32;
+	}
+      
+	}
+	printf ("The new string is: %s", storage);
+    }
+
+
+
+
+
+
