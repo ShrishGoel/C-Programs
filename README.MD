@@ -86,4 +86,4 @@ This Repositorie contains all my C programs.
 85. Structure 6 - Interest - https://github.com/ShrishGoel/C-Programs/blob/main/Structure%206%20-%20Interest
 86. String 1 - Number of lower and upper letters - https://github.com/ShrishGoel/C-Programs/blob/main/String%201%20-%20Number%20of%20lower%20and%20upper%20letters
 87. Strings 2 - Word counter - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%202%20-%20Word%20counter
-
+88. Strings 3 - Case changer - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%203%20-%20Case%20changer
