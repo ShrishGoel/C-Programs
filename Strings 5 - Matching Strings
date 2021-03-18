@@ -1,0 +1,31 @@
+//Program to match the content of 2 Strings without using Lib Function. 
+int main() {
+    char a[100];
+    char b[100];
+    printf("Enter first string:");
+    gets(a);
+    printf("Enter second string:");
+    gets(b);
+    int count;
+    for(int x = 0; a[x] != 0; x++) {
+        for(int y = 0; b[y] != 0; y++) {
+        if(a[x] == b[y]) {
+         printf("%c character was found at location %d in first string and %d location at second string",a[x],x,y);   
+        printf("\n");
+        count++;
+        }
+            
+        }
+    }
+    
+    if(count >= 1) {
+        printf("\n%d found common in total",count);
+    }
+    else {
+        printf("The strings are not same");
+    }
+}
+
+
+
+
