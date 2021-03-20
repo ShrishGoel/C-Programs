@@ -1,0 +1,12 @@
+//Program to count length of String. 
+int main()
+{
+  char string[100];
+  printf ("Enter a string:");
+  gets (string);
+  int length = 0;
+  for (int x = 0; string[x] != 0; x++) {
+      length++;
+    } 
+    printf ("The length of the string is: %d", length);
+}
