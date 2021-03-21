@@ -90,3 +90,4 @@ This Repositorie contains all my C programs.
 89. Strings 4 - Reverse of String - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%204%20-%20Reverse%20of%20String
 90. Strings 5 - Matching Strings - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%205%20-%20Matching%20Strings
 91. Strings 6 - Length of String - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%206%20-%20Length%20of%20String
+92. Strings 7 - replace digits with * - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%207%20-%20replace%20digits%20with%20*
