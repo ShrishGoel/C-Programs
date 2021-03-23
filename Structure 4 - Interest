@@ -1,0 +1,14 @@
+// Calculates interest using Structure
+struct interest {
+  float p,r,t,interest;  
+};
+
+int main() {
+    struct interest *p,dub;
+    p = &dub;
+    printf("Enter the pricipal,rate and time");
+    scanf("%f%f%f",&dub.p,&dub.r,&dub.t);
+    (*p).interest = ((*p).p + (*p).r + (*p).t)/100;
+    printf("The interest is: %f",(*p).interest);
+
+}
