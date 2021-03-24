@@ -1,0 +1,31 @@
+// Writes in a file and then reads it counting the characters 
+
+int main() {
+    char filename[100];
+    
+    printf("Enter the filename:");
+    gets(filename);
+    
+    struct FILE *p;
+    p = fopen(filename,"w");
+    int x = 1;
+    fprintf(p,"Hi my name is charlie.\nIts cold outside.\nThe weather is humid");
+    fclose(p);
+    
+    p = fopen(filename,"r");
+    int charc = 0;
+    int word = 3;
+    int line = 1;
+    while(!feof(p)) {
+        char dummy = fgetc(p);
+        charc++;
+        putchar(p);
+        if(dummy == 32) {
+            word++;
+        }
+        if(dummy == 10) {
+            line++;
+        }
+    }
+    printf("The number of characters is: %d\nThe number of words is: %d\nThe number of lines is: %d\n",charc,word,line);
+}
