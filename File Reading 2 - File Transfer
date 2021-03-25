@@ -1,0 +1,23 @@
+// Opens a file chosen by the user and then writes in it. It then transfers the contents of that file into another file.
+int main() {
+    struct FILE *file1,*file2;
+    char filename[100];
+    char filename2[100];
+    printf("What file do you want to read?");
+    gets(filename);
+    printf("What file do you want to transfer file 1 to?");
+    gets(filename2);
+    file1 = fopen(filename,"w");
+    fprintf(file1,"Hello my name is ****.\nThe weather is really cold today.\nIt is humid too!!.");
+    fclose(file1);
+   file1 = fopen(filename,"r");
+    file2 = fopen(filename2,"w");
+   while(!feof(file1)) {
+     char i = fgetc(file1);
+     fputc(i,file2);
+   }
+    fclose(file1);
+    fclose(file2);
+    
+    
+}
