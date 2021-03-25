@@ -67,7 +67,7 @@ This Repositorie contains all my C programs.
 65. Functions 2 - Greatest of two numbers - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%202%20-%20Greatest%20of%20two%20numbers
 66. Functions 3 - Palindrome - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%203%20-%20Palindrome 
 67. Functions 4 - Greatest element in array - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%204%20-%20Greatest%20element%20in%20array
-68. Functions 5 - Interest - https://github.com/ShrishGoel/C-Programs/blob/main/Pointers%205%20-%20Maximum%20Value%20in%20Array
+68. Functions 5 - Interest - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%205%20-%20Interest
 69. Functions 6 - Area of cone and cylinder - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%206%20-%20Area%20of%20cone%20and%20cylinder
 70. Functions 7 - Greatest of two numbers - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%207%20-%20Greatest%20of%20two%20numbers
 72. Functions 8 - Reverse of a number - https://github.com/ShrishGoel/C-Programs/blob/main/Functions%208%20-%20Reverse%20of%20a%20number
