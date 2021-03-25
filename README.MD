@@ -92,3 +92,4 @@ This Repositorie contains all my C programs.
 91. Strings 6 - Length of String - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%206%20-%20Length%20of%20String
 92. Strings 7 - replace digits with * - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%207%20-%20replace%20digits%20with%20*
 93. File Reading - 1 - https://github.com/ShrishGoel/C-Programs/blob/main/File%20Reading%20-%201
+94. File Reading 2 - File Transfer - https://github.com/ShrishGoel/C-Programs/blob/main/File%20Reading%202%20-%20File%20Transfer
