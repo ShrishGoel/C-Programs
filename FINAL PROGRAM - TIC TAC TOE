@@ -1,0 +1,127 @@
+// Play tic tac toe. 2 players are required to play this game. Created by Shrish Goel
+
+
+int main() {
+    
+    char array[3][3] = {'*','*','*','*','*','*','*','*','*'};
+    int r,c;
+    char x = 'x';
+    char o = 'o';
+    int n = 5;
+    int z = 0;
+    char v = '*';
+    printf("Let's play tic tac toe \n");
+    char d = '*';
+    while(n!=0) {
+        for(int x = 0; x < 3; x++) {
+            for(int y = 0; y < 3; y++) {
+                printf("%c\t",array[x][y]);
+            }
+            printf("\n");
+        }
+        
+        
+        
+        printf("First player enter the cordinate:");
+        scanf("%d%d",&r,&c);
+        if(array[r-1][c-1] == d) {
+        array[r - 1][c - 1] = 'x';
+        }
+        else {
+            printf("Player 1 cheated, skip turn\n");
+        }
+     if(array[0][0] != v && array[0][1] != v && array[0][2] != v && array[1][0] != v
+     && array[1][1] != v && array[1][2] != v && array[2][0] != v && array[2][1] != v && 
+     array[2][2] != v) {
+         printf("It was a tie!!");
+         break;
+     }
+       
+        
+        printf("Second player enter the cordinate:");
+        scanf("%d%d",&r,&c);
+        
+        if(array[r-1][c-1] == d) {
+        array[r - 1][c - 1] = 'o';
+        }
+        else {
+            printf("Player 2 cheated, skip turn\n");
+        }
+        
+      if(array[0][0] == x && array[0][1] == x && array[0][2] == x) {
+          printf("Player 1 WINS,CONGRATS");
+          break;
+      }
+     else if(array[0][0] == o && array[0][1] == o && array[0][2] == o) {
+          printf("Player 2 WINS,CONGRATS");
+          break;
+      }
+     else if(array[1][0] == x && array[1][1] == x && array[1][2] == x) {
+          printf("Player 1 WINS,CONGRATS");
+          break;
+      }
+      else if(array[1][0] == o && array[1][1] == o && array[1][2] == o) {
+          printf("Player 2 WINS,CONGRATS");
+          break;
+      }
+     else if(array[2][0] == x && array[2][1] == x && array[2][2] == x) {
+          printf("Player 1 WINS,CONGRATS");
+          break;
+      }
+       else if(array[2][0] == o && array[2][1] == o && array[2][2] == o) {
+          printf("Player 2 WINS,CONGRATS");
+          break;
+      }
+       else if(array[0][0] == x && array[1][0] == x && array[2][0] == x) {
+          printf("Player 1 WINS,CONGRATS");
+          break;
+      }
+      else if(array[0][0] == o && array[1][0] == o && array[2][0] == o) {
+          printf("Player 2 WINS,CONGRATS");
+          break;
+      }
+      else if(array[0][1] == x && array[1][1] == x && array[2][1] == x) {
+          printf("Player 1 WINS,CONGRATS");
+          break;
+      }
+     else if(array[0][1] == o && array[1][1] == o && array[2][1] == o) {
+          printf("Player 2 WINS,CONGRATS");
+          break;
+      }
+       else if(array[0][2] == x && array[1][2] == x && array[2][2] == x) {
+          printf("Player 1 WINS,CONGRATS");
+          break;
+      }
+      else if(array[0][2] == o && array[1][2] == o && array[2][2] == o) {
+          printf("Player 2 WINS,CONGRATS");
+          break;
+      }
+       else if(array[0][0] == x && array[1][1] == x && array[2][2] == x) {
+          printf("Player 1 WINS,CONGRATS");
+          break;
+      }
+      else if(array[0][0] == o && array[1][1] == o && array[2][2] == o) {
+          printf("Player 2 WINS,CONGRATS");
+          break;
+      }
+      else if(array[0][2] == x && array[1][1] == x && array[2][0] == x) {
+          printf("Player 1 WINS,CONGRATS");
+          break;
+      }
+    else if(array[0][2] == o && array[1][1] == o && array[2][0] == o) {
+          printf("Player 2 WINS,CONGRATS");
+          break;
+      }
+     
+    
+        
+  }
+  printf("\n");
+   for(int x = 0; x < 3; x++) {
+            for(int y = 0; y < 3; y++) {
+                printf("%c\t",array[x][y]);
+            }
+            printf("\n");
+        }
+  printf("THANKS FOR PLAYING!");
+}
