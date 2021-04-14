@@ -93,3 +93,4 @@ This Repositorie contains all my C programs.
 92. Strings 7 - replace digits with * - https://github.com/ShrishGoel/C-Programs/blob/main/Strings%207%20-%20replace%20digits%20with%20*
 93. File Reading - 1 - https://github.com/ShrishGoel/C-Programs/blob/main/File%20Reading%20-%201
 94. File Reading 2 - File Transfer - https://github.com/ShrishGoel/C-Programs/blob/main/File%20Reading%202%20-%20File%20Transfer
+95. Final Project - Tic Tac Toe - https://github.com/ShrishGoel/C-Programs/blob/main/FINAL%20PROGRAM%20-%20TIC%20TAC%20TOE
